@@ -72,18 +72,18 @@
 
         num {
             bindings = <
-&trans  &kp F1        &kp F2        &kp F3       &kp F4       &kp F5           &kp C_BRIGHTNESS_INC  &kp F1  &kp F4  &kp F7  &kp F10  &trans
-&trans  &mt LSHFT F6  &mt LCTRL F7  &mt LALT F8  &mt LGUI F9  &kp F10          &kp C_PLAY_PAUSE      &kp F2  &kp F5  &kp F8  &kp F11  &trans
-&trans  &kp F11       &kp F12       &none        &kp PSCRN    &kp LG(PSCRN)    &kp C_BRIGHTNESS_DEC  &kp F3  &kp F6  &kp F9  &kp F12  &trans
-                                    &trans       &trans       &trans           &trans                &trans  &trans
+&trans  &kp F1        &kp F2        &kp F3       &kp F4       &kp F5           &none   &kp N7                  &kp N8            &kp N9              &none            &trans
+&trans  &mt LSHFT F6  &mt LCTRL F7  &mt LALT F8  &mt LGUI F9  &kp F10          &none   &mt RIGHT_GUI NUMBER_4  &mt RIGHT_ALT N5  &mt RCTRL NUMBER_6  &kp RIGHT_SHIFT  &trans
+&trans  &kp F11       &kp F12       &none        &kp PSCRN    &kp LG(PSCRN)    &kp N0  &kp NUMBER_1            &kp NUMBER_2      &kp NUMBER_3        &none            &trans
+                                    &trans       &trans       &trans           &trans  &trans                  &trans
             >;
         };
 
-        sys_layer {
+        sys {
             bindings = <
-&trans  &bt BT_CLR    &bt BT_CLR_ALL  &bt BT_PRV    &bt BT_NXT    &trans          &none   &trans  &trans  &trans  &trans  &trans
-&trans  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans  &none   &none   &none   &none   &trans
-&trans  &bootloader   &sys_reset      &none         &none         &none           &none   &trans  &trans  &trans  &trans  &trans
+&trans  &bt BT_CLR    &bt BT_CLR_ALL  &bt BT_PRV    &bt BT_NXT    &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &bootloader   &sys_reset      &trans        &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans
                                       &trans        &trans        &trans          &trans  &trans  &trans
             >;
         };
