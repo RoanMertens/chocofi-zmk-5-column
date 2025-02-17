@@ -45,10 +45,10 @@
 
         vim {
             bindings = <
-&trans  &trans     &kp K_MUTE  &kp C_VOL_DN                 &kp C_VOL_UP  &kp C_BRI_UP       &kp RC(C)       &kp RC(Z)       &to 1         &kp RC(RS(Z))    &kp RC(V)          &trans
-&trans  &kp LSHFT  &kp LCTRL   &kp LALT                     &kp LGUI      &kp C_BRI_DN       &kp LEFT        &mt END DOWN    &mt HOME UP   &kp RIGHT        &kp RG(SPACE)      &trans
-&trans  &trans     &trans      &trans                       &mkp MB1      &mkp MB2           &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &kp RG(RS(SPACE))  &trans
-                               &mt LC(LS(LEFT_ALT)) ESCAPE  &lt 2 TAB     &lt 3 LG(SPACE)    &lt 3 BSPC      &lt 2 RET       &key_repeat
+&trans  &trans     &kp K_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_BRI_UP    &kp RC(C)       &kp RG(Z)       &to 1         &kp RS(RG(Z))    &kp RC(V)          &trans
+&trans  &kp LSHFT  &kp LCTRL   &kp LALT      &kp LGUI      &kp C_BRI_DN    &kp LEFT        &mt END DOWN    &mt HOME UP   &kp RIGHT        &kp RG(SPACE)      &trans
+&trans  &trans     &trans      &trans        &mkp MB1      &mkp MB2        &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &kp RG(RS(SPACE))  &trans
+                               &kp ESCAPE    &lt 2 TAB     &lt 3 SPACE     &lt 3 BSPC      &lt 2 RET       &key_repeat
             >;
         };
 
