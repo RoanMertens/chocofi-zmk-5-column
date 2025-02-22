@@ -84,34 +84,34 @@
 
         insert {
             bindings = <
-&trans  &kp Q             &kp W        &kp E           &kp R       &kp T     &kp Y   &kp U       &kp I            &kp O        &kp P                 &trans
-&trans  &mt LEFT_SHIFT A  &mt LCTRL S  &mt LEFT_ALT D  &mt LGUI F  &kp G     &kp H   &mt RGUI J  &mt RIGHT_ALT K  &mt RCTRL L  &mt RIGHT_SHIFT SEMI  &trans
-&trans  &kp Z             &kp X        &kp C           &kp V       &kp B     &kp N   &kp M       &kp COMMA        &kp DOT      &kp FSLH              &trans
-                                       &trans          &trans      &trans    &trans  &trans      &trans
+&trans  &kp Q              &kp W         &kp E            &kp R        &kp T     &kp Y   &kp U        &kp I             &kp O         &kp P                  &trans
+&trans  &hml LEFT_SHIFT A  &hml LCTRL S  &hml LEFT_ALT D  &hml LGUI F  &kp G     &kp H   &hmr RGUI J  &hmr RIGHT_ALT K  &hmr RCTRL L  &hmr RIGHT_SHIFT SEMI  &trans
+&trans  &kp Z              &kp X         &kp C            &kp V        &kp B     &kp N   &kp M        &kp COMMA         &kp DOT       &kp FSLH               &trans
+                                         &trans           &trans       &trans    &trans  &trans       &trans
             >;
         };
 
         sym {
             bindings = <
-&trans  &kp EXCL                 &kp AT               &kp POUND      &kp DOLLAR     &kp PERCENT    &kp PLUS   &kp LBRC            &kp RBRC            &kp DQT        &kp AMPERSAND     &trans
-&trans  &mt LEFT_SHIFT QUESTION  &mt LCTRL BACKSLASH  &mt LALT PIPE  &mt LGUI FSLH  &kp UNDER      &kp MINUS  &mt RIGHT_GUI LBKT  &mt RIGHT_ALT RBKT  &mt RCTRL SQT  &mt RSHIFT COLON  &trans
-&trans  &kp TILDE                &kp LT               &kp CARET      &kp GT         &none          &kp EQUAL  &kp LPAR            &kp RPAR            &kp GRAVE      &kp ASTERISK      &trans
-                                                      &trans         &trans         &trans         &trans     &trans              &trans
+&trans  &kp EXCL                  &kp AT                &kp POUND       &kp DOLLAR      &kp PERCENT    &kp PLUS   &kp LBRC             &kp RBRC             &kp DQT         &kp AMPERSAND      &trans
+&trans  &hml LEFT_SHIFT QUESTION  &hml LCTRL BACKSLASH  &hml LALT PIPE  &hml LGUI FSLH  &kp UNDER      &kp MINUS  &hmr RIGHT_GUI LBKT  &hmr RIGHT_ALT RBKT  &hmr RCTRL SQT  &hmr RSHIFT COLON  &trans
+&trans  &kp TILDE                 &kp LT                &kp CARET       &kp GT          &none          &kp EQUAL  &kp LPAR             &kp RPAR             &kp GRAVE       &kp ASTERISK       &trans
+                                                        &trans          &trans          &trans         &trans     &trans               &trans
             >;
         };
 
         num {
             bindings = <
-&trans  &kp F1        &kp F2        &kp F3       &kp F4       &kp F5           &none   &kp N7                  &kp N8            &kp N9              &none            &trans
-&trans  &mt LSHFT F6  &mt LCTRL F7  &mt LALT F8  &mt LGUI F9  &kp F10          &none   &mt RIGHT_GUI NUMBER_4  &mt RIGHT_ALT N5  &mt RCTRL NUMBER_6  &kp RIGHT_SHIFT  &trans
-&trans  &kp F11       &kp F12       &none        &kp PSCRN    &kp LG(PSCRN)    &kp N0  &kp NUMBER_1            &kp NUMBER_2      &kp NUMBER_3        &none            &trans
-                                    &trans       &trans       &trans           &trans  &trans                  &trans
+&trans  &kp F1         &kp F2         &kp F3        &kp F4        &kp F5           &none   &kp N7                   &kp N8             &kp N9               &none            &trans
+&trans  &hml LSHFT F6  &hml LCTRL F7  &hml LALT F8  &hml LGUI F9  &kp F10          &none   &hmr RIGHT_GUI NUMBER_4  &hmr RIGHT_ALT N5  &hmr RCTRL NUMBER_6  &kp RIGHT_SHIFT  &trans
+&trans  &kp F11        &kp F12        &none         &kp PSCRN     &kp LG(PSCRN)    &kp N0  &kp NUMBER_1             &kp NUMBER_2       &kp NUMBER_3         &none            &trans
+                                      &trans        &trans        &trans           &trans  &trans                   &trans
             >;
         };
 
         sys {
             bindings = <
-&trans  &bt BT_CLR    &bt BT_CLR_ALL  &bt BT_PRV    &bt BT_NXT    &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &bootloader   &sys_reset      &trans        &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans
                                       &trans        &trans        &trans          &trans  &trans  &trans
